@@ -40,8 +40,10 @@ def check_win(player, computer):
       return "Scissors cut paper! You win!"
     else:
       return "Rock smashes scissors! You lose."
-    #Nested if statements: to make the code more readable. 
+    #Nested if statements: to make the code more readable. Test
   
+#New Features
+#Test
 
 choices = get_choices()
 # Choices is a dictionary, because the function get_choices returns a dictionary
