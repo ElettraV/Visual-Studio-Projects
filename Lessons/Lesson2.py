@@ -7,7 +7,7 @@ Created on Tue Oct  4 15:04:15 2022
 
 # VARIABLE
 # A variable name can be anything: names, numbers, or underscore. It cannot begin with a number. 
-# Cannot contain ! or %. Anything is valid, unless it is a Python ketbord: for, if, while, import are not ok. 
+# Cannot contain ! or %. Anything is valid, unless it is a Python keyboard: for, if, while, import are not ok. 
 
 name = "Beau"
 _name = "Elettra"
@@ -22,7 +22,7 @@ HEIGHT = 165
 # An expression is any code that returns value: ex. 1+2, "Beau"
 
 # STATEMENTS
-# Any operation on a value: ex. name = "Beau; print(name)
+# Any operation on a value: ex. name = "Beau"; print(name)
 # A program is a list of statements. They can be on the same line with ;
 
 # COMMENTS   
@@ -108,7 +108,7 @@ def is_adult2(age):
   return [] if age>18 else "not" #This is a ternary operator. It is a shorter way with same result. 
 
 result2 = is_adult2(age)
-print(f"The person2 is {result} an adult")
+print(f"The person2 is {result2} an adult")
 
 # STRINGS
 # It is possible to use both "" and ''

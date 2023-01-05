@@ -22,7 +22,7 @@ dog["name"] = "Syd" # It rewrites the value of name
 
 print(dog.get("name")) # Syd
 
-print(dog.get("color", "brown")) #If it cannot find the color in the dictionary, it is going to return the default value added (brown in this case
+print(dog.get("color", "brown")) #If it cannot find the color in the dictionary, it is going to return the default value added (brown in this case)
 
 print(dog.pop("name"))  #It prints it and then remove it
 
